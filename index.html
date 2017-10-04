@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Home-work-1</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Урок "Формы": теги и их атрибуты.</h1>
+		<h2>Расскажите немного о себе...</h2>
+		<p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
+	<form name="about_me" method="get" action="#">
+		<fieldset class="form_1">
+			<legend class="bold">Коротко о себе</legend>
+			<label>Имя:<input type="text" name="username" class="about_me" /></label>
+	   		<label>Фамилия:<input type="text" name="surname" class="about_me" /></label>
+	   		<label>Пол:<label class="inline" class="about_me" ><input type="radio" name="sex" value="man" checked class="about_me" >мужской</label><label class="inline"><input type="radio" name="sex" value="woman" class="about_me" />женский</label></label>
+	   		<label>Возраст:<input type="text" id="age" class="about_me" />лет</label>
+		</fieldset>
+		<fieldset>
+			<legend class="bold">Подробнее о себе</legend>
+				<label><input type="radio" name="sex" value="man" checked /> Молодой человек</label>
+			   	<label><input type="radio" name="sex" value="woman"/> Девушка</label>
+			   	<label><input type="text" name="name" /> Дата рождения</label>
+	   			<label><input type="text" name="name" /> Семейное положение</label>
+	   			<label><input type="text" name="name" /> Социальный статус</label>
+	   			<label><input type="text" name="name" /> Местожительство</label>
+	   	<h4>Что вы обычно делаете в выходных:</h4>
+	 		<label><input type="checkbox" name="weekend" value="sleep" /> Сплю</label>
+	 		<label><input type="checkbox" name="weekend" value="walking with friends" /> Гуляю с друзьями</label>
+	 		<label><input type="checkbox" name="weekend" value="i go fishing" /> Хожу на рыбалку</label>
+	 		<label><input type="checkbox" name="weekend" value="playing games" /> Играю в игры</label>
+	 	<h4>Рассказать о формах в книге, посвященной HTML:</h4>
+	 		<select>
+		 		<option>Site frequency:</option>
+		 		<option value="a1">«HTML и CSS.Путь к совершенству»Б.Хеник</option>
+		 		<option value="a2">«Изучаем HHTML 5».Б.Лоусон,Р.Шарп</option>
+		 		<option value="a3">html book</option> 
+		 		<option value="a4">html book</option>
+	 		</select>
+	 	<h4>Сколько книг вы прочитали за свою жизнь:</h4>
+	 		<label><input type="radio" name="books" value="ten" checked /> 0-10</label>
+	 		<label><input type="radio" name="books" value="twenty" checked /> 11-20</label>
+	 		<label><input type="radio" name="books" value="fifty" checked /> 21-50</label>
+	 		<label><input type="radio" name="books" value="fifty one" checked /> 50+</label>
+		<h4>Ваши комментарии:</h4>
+	 		<textarea cols="70" rows="10" name="text"></textarea>
+		 		<p><select multiple size="3">
+		 			<option>Первая позиция </option>
+		 			<option>Вторая позиция </option>
+		 			<option>Третья позиция </option>
+	 			</select></p>
+		</fieldset>
+		<fieldset class="form_3">
+  			<legend class="bold">И в заключении</legend>
+				<input type=text placeholder="Это поле было введено до вас" class="finish" />
+				<label for="e-mail" class="bold">E-mail</label>
+				<input type="text" name="e-mail" id="e-mail">
+			<h4>Хотите подписаться на самую модную рассылку спама?</h4>
+				<p>Выберите категории:</p>
+				<label><input type="checkbox" name="category" value="equipment" /> Оборудувание</label>
+	 			<label><input type="checkbox" name="category" value="how to cook dinner" /> Как приготовить обеды</label>
+	 			<label><input type="checkbox" name="category" value="million in two days" /> Заработай миллион за два дня!</label>
+	 		<h4>На сколько сложная задача:</h4>
+	 			<label><input type="radio" name="complexity" value="not complicated" checked /> Совсем нет</label>
+				<label><input type="radio" name="complexity" value="so-so" checked /> Так себе</label>
+				<label><input type="radio" name="complexity" value="barely coped" checked /> Еле справились</label>
+		</fieldset>
+			 	<p><input type="submit" name="submit" value="Отправить" /></p>
+	</form>
+	</div>
+</body>
+</html>
