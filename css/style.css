@@ -1,15 +1,15 @@
 .container {    
-	width: 848px;
+	width: 840px;
 	margin: 0 auto;
 	padding: 30px;
 }
 
 fieldset {
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 }
 
 .form_1 label {
-	margin-top: 14px;
+	margin-top: 15px;
 }
 
 label {
@@ -25,7 +25,7 @@ label {
 }
 
 #age {
-	width: 52px;
+	width: 50px;
 }
 
 .form_1 input {
@@ -34,12 +34,12 @@ label {
 }
 
 .about {
-	width: 262px;
+	width: 260px;
 }
 
 .finish {
-	width: 262px;
-	margin-bottom: 16px;
+	width: 260px;
+	margin-bottom: 15px;
 }
 
 .form_3 p {
@@ -47,5 +47,5 @@ label {
 }
 
 .email {
-	width: 262px;
+	width: 260px;
 }

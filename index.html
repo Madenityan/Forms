@@ -16,8 +16,8 @@
 				<legend class="bold">Коротко о себе</legend>
 				<label>Имя:<input type="text" name="username" class="about" /></label>
 		   		<label>Фамилия:<input type="text" name="surname" class= "about" /></label>
-		   		<label>Пол:<label class="inline"><input type="radio" name="sex" value="man" checked>мужской</label>
-		   		<label class="inline"><input type="radio" name="sex" value="woman"/>женский</label></label>
+		   		<label>Пол:<label class="inline"><input type="radio" name="gender" value="man" checked>мужской</label>
+		   		<label class="inline"><input type="radio" name="gender" value="woman"/>женский</label></label>
 		   		<label>Возраст:<input type="text" id="age"/>лет</label>
 			</fieldset>
 
@@ -64,9 +64,9 @@
 
 			<fieldset class="form_3">
 			  	<legend class="bold">И в заключении</legend>
-				<input type="text" name="conclusion" placeholder="Это поле было введено до вас" class="finish" />
+				<input type="text" name="conclusion" placeholder="Это поле было введено до вас" disabled class="finish" />
 				<label for="email" class="bold">Email</label>
-				<input type="text" name="email" id="email" class="email">
+				<input type="email" name="email" id="email" class="email">
 
 				<h4>Хотите подписаться на самую модную рассылку спама?</h4>
 				<p>Выберите категории:</p>
